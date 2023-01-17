@@ -17,6 +17,8 @@
 		9D4907D0297563D8008EF052 /* CoreDataExmpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4907CF297563D8008EF052 /* CoreDataExmpleTests.swift */; };
 		9D4907DA297563D8008EF052 /* CoreDataExmpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4907D9297563D8008EF052 /* CoreDataExmpleUITests.swift */; };
 		9D4907DC297563D8008EF052 /* CoreDataExmpleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4907DB297563D8008EF052 /* CoreDataExmpleUITestsLaunchTests.swift */; };
+		9D4907F229757036008EF052 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4907F029757036008EF052 /* Person+CoreDataClass.swift */; };
+		9D4907F329757036008EF052 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4907F129757036008EF052 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9D4907D5297563D8008EF052 /* CoreDataExmpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExmpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4907D9297563D8008EF052 /* CoreDataExmpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExmpleUITests.swift; sourceTree = "<group>"; };
 		9D4907DB297563D8008EF052 /* CoreDataExmpleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExmpleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D4907F029757036008EF052 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9D4907F129757036008EF052 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		9D4907B4297563D7008EF052 /* CoreDataExmple */ = {
 			isa = PBXGroup;
 			children = (
+				9D4907F529757055008EF052 /* Model */,
 				9D4907B5297563D7008EF052 /* AppDelegate.swift */,
 				9D4907B7297563D7008EF052 /* SceneDelegate.swift */,
 				9D4907B9297563D7008EF052 /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				9D4907DB297563D8008EF052 /* CoreDataExmpleUITestsLaunchTests.swift */,
 			);
 			path = CoreDataExmpleUITests;
+			sourceTree = "<group>";
+		};
+		9D4907F529757055008EF052 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D4907F029757036008EF052 /* Person+CoreDataClass.swift */,
+				9D4907F129757036008EF052 /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,8 @@
 			files = (
 				9D4907BA297563D7008EF052 /* ViewController.swift in Sources */,
 				9D4907C0297563D7008EF052 /* CoreDataExmple.xcdatamodeld in Sources */,
+				9D4907F329757036008EF052 /* Person+CoreDataProperties.swift in Sources */,
+				9D4907F229757036008EF052 /* Person+CoreDataClass.swift in Sources */,
 				9D4907B6297563D7008EF052 /* AppDelegate.swift in Sources */,
 				9D4907B8297563D7008EF052 /* SceneDelegate.swift in Sources */,
 			);
